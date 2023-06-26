@@ -1,0 +1,21 @@
+Difference between HTTP 1 and HTTP 2 -
+
+Multiplexing: HTTP 2 introduces multiplexing, which allows multiple requests and responses to be sent and received simultaneously over a single connection. This eliminates the need for multiple connections, reducing latency and improving overall performance.
+
+Binary Protocol: While HTTP 1 uses plain text for communication, HTTP 2 utilizes a binary protocol. The binary framing enables more efficient and compact encoding of data, resulting in reduced bandwidth usage and improved parsing efficiency.
+
+Server Push: HTTP 2 introduces server push, a feature that allows the server to proactively send resources to the client before they are explicitly requested. This can enhance performance by reducing the number of round trips required to fetch dependent resources.
+
+Header Compression: HTTP 2 incorporates header compression using the HPACK algorithm. This significantly reduces the overhead of sending redundant header information with each request and response, resulting in lower data transfer sizes and improved network efficiency.
+
+Prioritization: HTTP 2 introduces stream prioritization, allowing the client to assign priorities to different requests. This enables more control over resource allocation, ensuring that critical resources are delivered faster and improving overall user experience, particularly in scenarios with limited bandwidth or high-latency connections.
+
+
+
+3 Points about objects and it's internal representation in JS -
+
+Object Properties and Prototypes: Objects in JavaScript are dynamic and can have properties added or modified at runtime. Each object has an internal property called [[Prototype]] that points to its prototype object. If a property is not found on the object itself, JavaScript traverses the prototype chain by following the [[Prototype]] link to find the property on the prototype object.
+
+Property Descriptors: Each property in JavaScript objects has associated property descriptors that define attributes such as writable, enumerable, configurable, and value. Property descriptors allow fine-grained control over the behavior of object properties, such as preventing modifications or making properties read-only.
+
+Object Creation and Construction: JavaScript provides multiple ways to create objects. Besides object literals {}, objects can be created using constructor functions, the new keyword, the Object.create() method, or class syntax introduced in newer versions of JavaScript. These methods allow the creation of objects with specific behaviors, prototype relationships, and property values.
