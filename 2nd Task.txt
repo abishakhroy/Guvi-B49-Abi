@@ -1,0 +1,24 @@
+Document Objects:
+
+Content Manipulation: Document objects provide methods and properties to manipulate the content of a web page. This includes accessing and modifying elements, changing text and attributes, creating new elements, and removing existing ones.
+
+Element Selection: The Document object offers methods like getElementById(), getElementsByClassName(), and querySelector() to select specific elements from the document based on their IDs, classes, or CSS selectors. This allows developers to target specific parts of the page for manipulation or interaction.
+
+Document Structure: The Document object represents the structure of an HTML document, providing access to the root element (documentElement), the head and body elements, and other essential components. This enables developers to traverse and understand the hierarchical structure of the document.
+
+Event Handling: The Document object allows the registration and handling of various events such as clicks, key presses, and form submissions. By attaching event handlers to document elements, developers can respond to user interactions and trigger specific actions.
+
+Dynamic Document Creation: With Document objects, developers can dynamically create new HTML elements and append them to the document. This is particularly useful for generating content on the fly, building user interfaces programmatically, or responding to data retrieved from APIs.
+
+
+Window Objects:
+
+Browser Window Control: The Window object provides methods to control the behavior and appearance of the browser window. This includes opening new windows or tabs, closing windows, and resizing or moving the window on the screen.
+
+Navigation and Location: Window objects allow access to the browser's location and navigation-related properties. Developers can retrieve the current URL, navigate to a different page, or reload the current page using methods like location.href, location.reload(), and location.assign().
+
+Window Dimensions and Position: The Window object offers properties like innerWidth, innerHeight, outerWidth, and outerHeight to determine and manipulate the dimensions of the browser window. Developers can resize or reposition the window to provide a better user experience.
+
+Timing and Intervals: Window objects provide methods like setTimeout() and setInterval() to execute code at specified intervals or after a delay. This enables developers to create timers, animations, or schedule recurring tasks within the browser window.
+
+Storage and Caching: The Window object provides access to different storage mechanisms, such as local storage and session storage. These storage options allow developers to store and retrieve data locally on the user's device, enabling offline functionality and improving performance by caching resources.
